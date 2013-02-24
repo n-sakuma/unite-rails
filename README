@@ -1,6 +1,9 @@
 a unite.vim plugin for rails
 
 
+unite /app
+  :Unite rails/app
+
 unite /app/models
   :Unite rails/model
 
