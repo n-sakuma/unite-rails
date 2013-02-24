@@ -1,6 +1,9 @@
 a unite.vim plugin for rails
 
 
+unite root
+  :Unite rails/root
+
 unite /app
   :Unite rails/app
 
@@ -48,9 +51,6 @@ unite bundled gems
 
   unite routes 
     :Unite rails/route
-
-  unite root
-    :Unite rails/root
 
   unite command
     :Unite rails/command
